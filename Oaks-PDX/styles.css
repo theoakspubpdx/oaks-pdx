@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box 
+}
+html {
+  height: 100%;
+}
+
+body { 
+  font-family: "IBM Plex serif";  
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.imgur.com/oEEkG1Y.png")!important;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    height: 100vh;
+}
+
+header {
+  background-color: #1a3a16;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: IBM Plex serif;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+main {
+  margin-top: 60px;
+  padding: 2rem;
+  text-align: center;  
+}
+
+section {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-items {
+  text-align: center;
+}
+
+.menu-item {
+  margin-bottom: 1.5rem;
+}
+
+.menu-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  color: #555;
+}
+
+.menu-item .description {
+  font-style: italic;
+  color: #666;
+}
+
+.menu-item .addons {
+  margin-top: 0.3rem;
+  color: #777;
+}
+
+.landing {
+  padding: 4rem 2rem;
+}
+
+.menu-item{
+  background-color: rgb(197, 234, 196);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
