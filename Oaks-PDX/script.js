@@ -190,11 +190,8 @@ const suppers = [
   }
 ];
 
-// Drinks data
-const drinkItems = [
-  { name: "Coffee", price: "$2.99" },
-  { name: "Soda", price: "$1.99" }
-];
+
+
 
 // Cocktails data
 const cocktails = [
