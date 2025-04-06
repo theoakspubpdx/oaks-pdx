@@ -364,6 +364,5 @@ window.addEventListener("load", () => {
   populateMenuItems("gin", gin);
   populateMenuItems("tequila", tequila);
   populateMenuItems("rum", rum);
-  populateSection("drinks", drinkItems);
   populateSection("beverages", beverages);
 });

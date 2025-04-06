@@ -11,19 +11,20 @@ body {
   font-family: "IBM Plex serif";  
     margin: 0;
     padding: 0;
-    background-image: url("https://i.imgur.com/oEEkG1Y.png")!important;
-    /*background-size: cover; /* Ensures the image covers the entire page */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    height: 60vh;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #d9e2db;
+
+    
 }
 
 header {
   background-color: #1a3a16;
-  padding: 1rem;
-  position: fixed;
+  padding: 1rem;  
   width: 100%;
   top: 0;
+  min-height: 20;
+  
 }
 
 .nav-links {
@@ -45,10 +46,21 @@ header {
 }
 
 main {
-  margin-top: 60px;
-  padding: 2rem;
-  text-align: center;  
+  margin-top: 0px;
   
+  text-align: center;  
+  background-image: url("https://i.imgur.com/oEEkG1Y.png")!important;
+  opacity: .8;
+    background-size:auto;
+    background-position: center;
+    background-size: contain;
+    
+
+    background-repeat:no-repeat;
+    height: 100%;
+
+    box-sizing: border-box;
+    
 }
 
 section {
@@ -89,13 +101,14 @@ h2 {
 
 .menu-item .description {
   font-style: italic;
-  color: #666;
-  
+  /*color: #666;*/
+  color: black;
 }
 
 .menu-item .addons {
   margin-top: 0.3rem;
-  color: #777;
+color: #777;
+  
   
   
 }
@@ -110,6 +123,43 @@ h2 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 20px;
   border-radius: 8x;
-  opacity: .5;
+  opacity: .85;
   
 }
+.menu-item:hover {
+  opacity: 1.0;
+}
+#whiskey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;      
+}
+#scotch{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+#vodka{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+#gin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+#tequila{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+#rum{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+#about a{
+  text-decoration: none;
+}
+
