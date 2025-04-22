@@ -295,7 +295,6 @@ const rum = [
   { name: "Myer’s Dark", price: "8" },
   { name: "Sailor Jerry", price: "8" }
 ];
-// Beverage data
 const beverages = [
   { name: "Maui Hard Seltzer POG", price: "6" },
   { name: "Roaming Nobles N/A IPA", price: "7" },
@@ -305,6 +304,7 @@ const beverages = [
   { name: "Brew Dr. Kombucha Superberry", price: "6" },
   { name: "Iced Tea, Lemonade,RC Cola, Diet RC Cola, Ginger Beer, Root Beer, 7UP, Apple, Cranberry, Grapefruit,Orange", price: "3" }
 ];
+
 
 
 // Function to populate menu items (for menu, cocktails, whiskey, scotch, vodka, gin, tequila, and rum)
