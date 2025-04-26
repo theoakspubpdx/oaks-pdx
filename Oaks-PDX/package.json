@@ -1,0 +1,16 @@
+{
+  "name": "oaks-pdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "oaks-pdx"
+  },
+  "author": "",
+  "license": "ISC"
+}
