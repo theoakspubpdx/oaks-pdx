@@ -2,7 +2,7 @@
   "name": "oaks-pdx",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "start": "npx serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
