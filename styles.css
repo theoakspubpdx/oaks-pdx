@@ -281,6 +281,9 @@ h2 {
   main {
     background-size: contain; 
     opacity: 0.9; 
+    background-attachment: fixed;
+    background-position: center calc(50% + 100px);
+    min-height: 100%; 
   }
 
   section {
