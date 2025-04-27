@@ -23,7 +23,6 @@ header {
   width: 100%;
   top: 0;
   min-height: 20px;
-
 }
 
 .nav-links {
@@ -53,7 +52,7 @@ main {
   background-size: contain;
   background-position: center calc(50% + 100px);
   background-repeat: no-repeat;
-  min-height: 100%; 
+  min-height: 100%;
 }
 
 section {
@@ -79,15 +78,17 @@ h2 {
 }
 
 #menu h2 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-color: rgb(65, 128, 72);
   border-radius: 8px;
   display: inline-block;
   font-size: xx-large;
   padding: 5px;
-  color: white; 
-  position: relative; 
-  overflow: hidden; 
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
 #menu h2::before {
@@ -97,10 +98,14 @@ h2 {
   left: 10%;
   width: 80%;
   height: 40%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); 
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   border-radius: 50%;
   opacity: 1;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 #menu h2::after {
@@ -110,22 +115,28 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, transparent 60%); 
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 60%
+  );
   opacity: 1;
   pointer-events: none;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 #drinks h2 {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-color: rgb(65, 128, 72);
   border-radius: 8px;
   display: inline-block;
   font-size: xx-large;
   padding: 5px;
-  color: white; 
-  position: relative; 
-  overflow: hidden; 
+  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
 #drinks h2::before {
@@ -135,7 +146,11 @@ h2 {
   left: 10%;
   width: 80%;
   height: 40%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%); /* Subtle white gradient */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  ); /* Subtle white gradient */
   border-radius: 50%; /* Creates a rounded highlight */
   opacity: 1;
   pointer-events: none; /* Prevent interaction with the overlay */
@@ -148,7 +163,11 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, transparent 60%); /* Another subtle highlight */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 60%
+  ); /* Another subtle highlight */
   opacity: 1;
   pointer-events: none;
   border-radius: 8px; /* Match the h2's border-radius */
@@ -157,8 +176,8 @@ h2 {
   margin-bottom: 25px;
   background-color: rgba(217, 226, 219, 0.85);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 20px;
   border-radius: 8px;
   background-image: linear-gradient(
@@ -171,8 +190,8 @@ h2 {
 }
 
 .menu-item {
-  opacity: 1.0; 
-  background-color: rgba(65, 128, 72, 0.85); 
+  opacity: 1;
+  background-color: rgba(65, 128, 72, 0.85);
   background-image: linear-gradient(
     to top,
     rgba(255, 255, 255, 0.3) 0%,
@@ -207,7 +226,12 @@ h2 {
   padding: 4rem 2rem;
 }
 
-#whiskey, #scotch, #vodka, #gin, #tequila, #rum {
+#whiskey,
+#scotch,
+#vodka,
+#gin,
+#tequila,
+#rum {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -216,8 +240,6 @@ h2 {
 #about a {
   text-decoration: none;
 }
-
-
 
 #ig {
   display: flex;
@@ -228,22 +250,23 @@ h2 {
   background-color: rgba(229, 201, 128, 0.65);
   border-radius: 8px;
   display: inline-block;
-  padding: 40px; 
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
+  padding: 40px;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 50%
+  );
   background-repeat: repeat-x;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 155px;
 }
-
-
-
 
 #about {
   text-decoration: none;
   color: black;
   font-size: xx-large;
   font-weight: bolder;
-  display: block; 
+  display: block;
 }
 
 #about h1,
@@ -252,15 +275,14 @@ h2 {
 #about email {
   color: black;
   font-weight: bolder;
-  display: inline; 
+  display: inline;
   margin-bottom: 155px;
 }
 
 #about a {
   color: black;
   font-weight: bolder;
-  }
-
+}
 
 /* Mobile Media Queries */
 @media screen and (max-width: 600px) {
@@ -268,7 +290,7 @@ h2 {
     padding: 0.5rem;
   }
 
- /* .nav-links {
+  /* .nav-links {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
@@ -279,11 +301,11 @@ h2 {
   }
 
   main {
-    background-size: contain; 
-    opacity: 0.9; 
+    background-size: contain;
+    opacity: 0.9;
     background-attachment: fixed;
-    background-position: top center ;
-    min-height: 100%; 
+    background-position: center calc(50% + 5px);
+    min-height: 100%;
   }
 
   section {
@@ -316,7 +338,12 @@ h2 {
     padding: 2rem 1rem;
   }
 
-  #whiskey, #scotch, #vodka, #gin, #tequila, #rum {
+  #whiskey,
+  #scotch,
+  #vodka,
+  #gin,
+  #tequila,
+  #rum {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
