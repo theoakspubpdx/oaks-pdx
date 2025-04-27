@@ -279,7 +279,7 @@ h2 {
   }
 
   main {
-    background-size: cover; 
+    background-size: contain; 
     opacity: 0.9; 
   }
 
