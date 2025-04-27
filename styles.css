@@ -304,7 +304,7 @@ h2 {
     background-size: contain;
     opacity: 0.9;
     background-attachment: fixed;
-    background-position: center calc(50% + 5px);
+    background-position: top 2px;
     min-height: 100%;
   }
 
