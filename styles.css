@@ -343,11 +343,12 @@ h2 {
 main {
   background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
   background-attachment: fixed;
-  /*background-position: top center;*/
+  background-position: top;
   background-size: contain; 
   background-repeat: no-repeat;
   opacity: 0.9;
   min-height: 100vh;
+  background-position: center calc(15% );
 }
 
   section {
