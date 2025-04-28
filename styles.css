@@ -224,7 +224,7 @@ h2 {
 
 .menu-item .addons {
   margin-top: 0.3rem;
-  color: #777;
+  color:black;
 }
 
 .landing {
@@ -343,7 +343,7 @@ h2 {
 main {
   background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
   background-attachment: fixed;
-  background-position: top center;
+  /*background-position: top center;*/
   background-size: contain; 
   background-repeat: no-repeat;
   opacity: 0.9;
