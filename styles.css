@@ -340,13 +340,15 @@ h2 {
     font-size: 1rem;
 }
 
-  main {
-    background-size: contain;
-    opacity: 0.9;
-    background-attachment: fixed;
-    background-position: top 2px;
-    min-height: 100%;
-  }
+main {
+  background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  min-height: 100vh;
+}
 
   section {
     padding: 1rem;
