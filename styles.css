@@ -43,10 +43,9 @@ header {
   color: #8fd786;
 }
 .nav-links a.active {
-  font-weight: bold; 
-  color: rgb(25, 0, 255);    
+  font-weight: bold;
+  color: rgb(25, 0, 255);
 }
-
 
 main {
   margin-top: 0;
@@ -120,7 +119,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-    background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.2) 0%,
     transparent 60%
@@ -185,7 +184,7 @@ h2 {
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 20px;
   border-radius: 8px;
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     to top,
     rgba(255, 255, 255, 0.2) 0%,
     rgba(255, 255, 255, 0) 30%,
@@ -224,7 +223,7 @@ h2 {
 
 .menu-item .addons {
   margin-top: 0.3rem;
-  color:black;
+  color: black;
 }
 
 .landing {
@@ -244,20 +243,19 @@ h2 {
 
 #about a {
   text-decoration: none;
-  font-size:larger;
-  
-  }
+  font-size: larger;
+}
 
-  #about h3 {
-    color: whitesmoke;
-  }
-
+#about h3 {
+  color: whitesmoke;
+}
 
 #about .content {
   padding: 2rem;
-  background-color: rgba(217, 226, 219, 0.9); 
+  background-color: rgba(217, 226, 219, 0.9);
   border-radius: 8px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .contact-info {
@@ -277,7 +275,6 @@ h2 {
   text-align: center;
   transition: transform 0.2s;
   max-width: 300px;
-  
 }
 
 .contact-card:hover {
@@ -291,7 +288,8 @@ h2 {
   font-weight: bold;
 }
 
-.contact-card p, .contact-card a {
+.contact-card p,
+.contact-card a {
   color: #333;
   font-size: 1.3rem;
   line-height: 1.5;
@@ -338,18 +336,19 @@ h2 {
 
   .nav-links a {
     font-size: 1rem;
-}
+  }
 
-main {
-  background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: contain; 
-  background-repeat: no-repeat;
-  opacity: 0.9;
-  min-height: 100vh;
-  background-position: center calc(15% );
-}
+  main {
+    background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
+    background-attachment: fixed;
+    background-position: top 60px center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    min-height: 100vh;
+    padding: 50px;
+   
+  }
 
   section {
     padding: 1rem;
