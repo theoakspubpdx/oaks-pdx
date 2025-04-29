@@ -79,18 +79,18 @@ const saladsAndSoups = [
       description: "roasted beets, arugula, pomegranate molasses, toasted pepitas, roasted red peppers and goat cheese with red wine vinaigrette"
   },
   {
-      name: "The Soup",
+      name: "The Soup - cup $5 bowl $7",
       price: "cup 5 bowl 7",
       description: "see the board or ask your server"
   },
   {
-      name: "The Chili",
-      price: "cup 5 bowl 7",
+      name: "The Chili - cup $5 bowl $7",
+      
       description: "vegetarian with sour cream and cheese"
   },
   {
-      name: "The Combo",
-      price: "bowl 12 cup 14",
+      name: "The Combo - cup $12 bowl $14",
+      
       description: "mixed greens with soup or chili and bread"
   }
 ];
