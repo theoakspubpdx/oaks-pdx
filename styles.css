@@ -341,12 +341,12 @@ h2 {
   main {
     background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
     background-attachment: fixed;
-    background-position: top 60px;
+    background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.9;
     min-height: 100vh;
-    padding: 50px;
+    
    
   }
 
