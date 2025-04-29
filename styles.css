@@ -322,10 +322,11 @@ h2 {
   border-radius: 8px !important;
   overflow: hidden !important;
 }
-/* Mobile Media Queries */
+/************************ Mobile Media Queries *************************/
 @media screen and (max-width: 600px) {
   header {
     padding: 0.5rem;
+    
   }
 
   /* .nav-links {
@@ -341,7 +342,7 @@ h2 {
   main {
     background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center calc( 25px);
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.9;
