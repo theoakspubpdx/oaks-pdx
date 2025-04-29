@@ -342,7 +342,7 @@ h2 {
   main {
     background-image: url("https://i.imgur.com/oEEkG1Y.jpg") !important;
     background-attachment: fixed;
-    background-position: center calc( 25px);
+    background-position: center calc( 35px);
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.9;
