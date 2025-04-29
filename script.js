@@ -80,7 +80,7 @@ const saladsAndSoups = [
   },
   {
       name: "The Soup - cup $5 bowl $7",
-      price: "cup 5 bowl 7",
+  
       description: "see the board or ask your server"
   },
   {
