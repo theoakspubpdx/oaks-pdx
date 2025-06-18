@@ -24,9 +24,9 @@ const appsAndShares = [
       addons: "add beer cheese 3, bacon 3, pulled pork 5"
   },
   {
-      name: "The Parm",
-      price: "12",
-      description: "baked eggplant, tomato and parmesan dip with crostini"
+      name: "The Rings",
+      price: "8",
+      description: "hand sliced and beer battered with Oaks bbq sauce"
   },
   {
       name: "The Pretzels",
