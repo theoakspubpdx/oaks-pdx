@@ -186,12 +186,7 @@ const suppers = [
       price: "13",
       description: "cavatappi, beer cheese with breadcrumbs",
       addons: "add bacon 3, chicken 5, pulled pork 5"
-  },
-  {
-      name: "The Meatloaf",
-      price: "18",
-      description: "Oaks bbq glazed with mashed potatoes, gravy and mixed greens"
-  }
+  }  
 ];
 
 
