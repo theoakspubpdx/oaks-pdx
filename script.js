@@ -128,7 +128,7 @@ const sandwiches = [
       addons: "add american, bleu, cheddar, goat, provolone, swiss 1, pickled jalapeños, caramelized onions 1, fried egg, sautéed mushrooms 2, bacon 3, burger patty 5"
   },
   {
-      name: "The B.L.T.",
+      name: "The B.L.T.A.",
       price: "15",
       description: "bacon, arugula, tomato, avocado crema, mayo on sourdough"
   },
