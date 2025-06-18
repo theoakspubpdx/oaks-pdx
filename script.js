@@ -96,7 +96,7 @@ const saladsAndSoups = [
 ];
 
 // Menu data for Acorns & Grand Oaks
-const acornsAndGrandOaks = [
+const juniorsAndseniors = [
   {
       name: "Cheeseburger",
       price: "9",
