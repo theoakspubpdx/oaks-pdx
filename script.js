@@ -132,7 +132,11 @@ const sandwiches = [
       price: "15",
       description: "bacon, arugula, tomato, avocado crema, mayo on sourdough"
   },
-  {
+  {   name: "The Bodega",
+      price: "15",
+      description: "chopped cheese, ground beef, caramelized onions, lettuce, tomato, mayo on a french roll"
+  },     
+    {
       name: "The Club",
       price: "16",
       description: "marinated chicken breast, bacon, arugula aioli, avocado crema, mayo, red onion, tomato and swiss on ciabatta"
