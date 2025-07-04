@@ -132,6 +132,10 @@ const sandwiches = [
       price: "15",
       description: "bacon, arugula, tomato, avocado crema, mayo on sourdough"
   },
+  {   name: "The Bodega",
+      price: "16",
+      description: "chopped cheese, seasoned ground beef, caramelized onion, tomato, lettuce, mayo on a french roll"
+  }, 
   {
       name: "The Club",
       price: "16",
@@ -183,11 +187,6 @@ const suppers = [
       description: "cavatappi, beer cheese with breadcrumbs",
       addons: "add bacon 3, chicken 5, pulled pork 5"
   },
-  {
-      name: "The Meatloaf",
-      price: "18",
-      description: "Oaks bbq glazed with mashed potatoes, gravy and mixed greens"
-  }
 ];
 
 
